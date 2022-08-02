@@ -1,0 +1,20 @@
+ALGORITHM dOT pRODUCT
+VAR
+u,v:2 arrays
+p:produit
+
+PROCEDURE procedure_name(u,v:arrays)
+VAR
+
+BEGIN
+  Read(u[0])
+   Read(u[1])
+    Read(v[0])
+     Read(v[1])
+ p=[0]*v[0]+u[1]*v[1]
+  IF p=0 THEN
+  write("se sont des produits scalaires")
+ ELSE
+  write("il n'ont pas des produits scalaires ")
+   END_IF
+END
